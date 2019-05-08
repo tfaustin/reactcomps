@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Header from './headers/Header.js';
+import Sidemenu1 from './sidemenus/sidemenu1.js';
 
 
 /* Road Map
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Sidemenu1/>
       <h1>holla</h1>
     </div>
   );
