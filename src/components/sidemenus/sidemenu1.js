@@ -1,12 +1,17 @@
 import React from 'react';
-import './sidemenu1.scss';
+import './sidemenu-1.scss';
 
 
 function sidemenu1() {
   return (
     <div className="sidemenu1">
       <nav className="links">
-      <a href="">Navigations</a>
+      <div className="link-item">
+      <a href=""> 
+      <i class="fas fa-tachometer-alt"></i>
+      <span>Navigations</span>  
+      </a>
+      </div>
       <a href="">Side Menus</a>
       <a href="">User Profiles</a>
       <a href="">Sign In forms</a>

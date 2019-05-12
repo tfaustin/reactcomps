@@ -1,0 +1,48 @@
+@import "../variables";
+
+.sidemenu1 {
+background: $blueside;
+width:18%;
+height: 100vh;
+padding-top:30px;
+
+    .link-item{
+        display: flex;
+        flex-direction: column;
+        &:hover{
+         background:rgb(99, 128, 202) ;
+         border-left: 4px solid #fa4d64;
+         color:#f4f4f4;
+         border-radius:6px;
+        }
+     }
+
+   
+
+   a{
+    display: flex;
+    flex-direction: row;
+    color:#f4f4f4;;
+    padding:10px 8px 10px 20px;
+    text-decoration: none;
+    font-size:0.80rem;
+    align-items: flex-start;
+
+    &:hover{
+      font-weight: 600;
+    }
+    
+   
+   
+  }
+  i{
+    font-size: 16px; 
+    padding-right: 10px;
+
+  }
+  span{
+    display: inline;
+  }
+}
+
+
