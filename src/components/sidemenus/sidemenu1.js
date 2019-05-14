@@ -7,19 +7,47 @@ function sidemenu1() {
     <div className="sidemenu1">
       <nav className="links">
       <div className="link-item">
-      <a href=""> 
-      <i class="fas fa-tachometer-alt"></i>
-      <span>Navigations</span>  
-      </a>
+        <a href=""> 
+          <i class="fas fa-route"></i>
+          <span>Navigations</span>  
+        </a>
       </div>
-      <a href="">Side Menus</a>
-      <a href="">User Profiles</a>
-      <a href="">Sign In forms</a>
-      <a href="">Sign ups forms</a>
-      <a href="">CRUD Form</a>
-      <a href="">Data Tables</a>
-      <a href="">Data Visualization</a>
-      <a href="">Cards</a>
+      <div className="link-item">
+        <a href=""> 
+          <i class="fas fa-align-left"></i>
+          <span>Side Menus</span>  
+        </a>
+      </div>
+      <div className="link-item">
+        <a href=""> 
+          <i class="fas fa-user"></i>
+          <span>User Profiles</span>  
+        </a>
+      </div>
+      <div className="link-item">
+        <a href=""> 
+          <i class="fas fa-unlock-alt"></i>
+          <span>Sign In/Sign up forms</span>  
+        </a>
+      </div>
+      <div className="link-item">
+        <a href=""> 
+          <i class="fas fa-align-justify"></i>
+          <span>CRUD Form</span>  
+        </a>
+      </div>
+      <div className="link-item">
+        <a href=""> 
+          <i class="fas fa-table"></i>
+          <span>Data Tables</span>  
+        </a>
+      </div>
+      <div className="link-item">
+        <a href=""> 
+          <i class="fas fa-address-card"></i>
+          <span>Cards</span>  
+        </a>
+      </div>
      </nav>
     </div>
   );
