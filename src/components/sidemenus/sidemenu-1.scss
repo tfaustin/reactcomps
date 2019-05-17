@@ -9,11 +9,12 @@ padding-top:30px;
     .link-item{
         display: flex;
         flex-direction: column;
+        color:#ccd7e6;
         &:hover{
          background:rgb(99, 128, 202) ;
-         border-left: 4px solid #fa4d64;
-         color:#f4f4f4;
-         border-radius:4px;
+         border-left: 4px solid #8ddef7;
+         color:#ccd7e6;
+         border-radius:2px;
         }
      }
 
